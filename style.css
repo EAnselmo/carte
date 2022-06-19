@@ -1,0 +1,171 @@
+*,
+*:after,
+*:before {
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 100vw;
+    height: 100%;
+    gap: 50px;
+    background-color: white;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+}
+.bordures_1 {
+    background-color: rgb(130, 24, 24);
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    width: 30px;
+    height: 17300px;
+}
+.bordures_2 {
+    background-color: rgb(130, 24, 24);
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    width: 30px;
+    height: 17300px;
+}
+.bordures_3 {
+    background-color: rgb(130, 24, 24);
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    width: 1000px;
+    height: 30px;
+}
+img {
+    object-fit: cover;
+}
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    width: 80%;
+    height: 100%;
+    background: whitesmoke;
+}
+.Logo_1 {
+    width: 200px;
+    height: 200px;
+    top: 50px;
+    left: 100px;
+    object-fit: scale-down;
+}
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 0 0 20px white;
+    font-size: 50px;
+    transform: scale(1);
+    transition: transform linear 400ms, background-color linear 350ms 150ms;
+}
+.title:hover {
+    transform: scale(1.15);
+    text-shadow: 0 0 20px purple;
+}
+.Menu_cliquable {
+    width: 100%;
+    height: 100%;
+    margin-top: 0;
+    gap: 2%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-around;
+}
+.Categorie_1 {
+    top: 200px;
+    font-size: 40px;
+    color: rgb(130, 24, 24);
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+#Carte_des_boissons {
+    width: 80%;
+    height: 100%;
+    gap: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+}
+.choix {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 25%;
+    height: 100%;
+    margin-top: 30px;
+    font-size: 20px;
+    text-align: center;
+}
+.choix:hover {
+    cursor: pointer;
+}
+
+.categorie_fandb {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    margin-top: 0px;
+    color: rgb(130, 24, 24);
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 90%;
+    padding: 0%;
+    margin: 0;
+    margin-right: 0;
+    padding-left: 10px;
+}
+li {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+    gap: 15%;
+    align-items: center;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    text-align: justify;
+    justify-content: space-between;
+}
+.menu_price {
+    font-size: 20px;
+    font-style: bold;
+}
+.menu_name {
+    margin: 0;
+    text-align: center;
+}
+footer{
+    height: 30px;
+    width: 100%;
+    background-color: rgb(130, 24, 24)
+}
