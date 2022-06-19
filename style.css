@@ -14,33 +14,10 @@ body {
     gap: 50px;
     background-color: white;
     margin: 0;
+    border: rgb(130, 24, 24) 20px solid;
 }
 a {
     text-decoration: none;
-}
-.bordures_1 {
-    background-color: rgb(130, 24, 24);
-    position: absolute;
-    z-index: 1;
-    left: 0;
-    width: 20px;
-    height: 17810px;
-}
-.bordures_2 {
-    background-color: rgb(130, 24, 24);
-    position: absolute;
-    z-index: 1;
-    right: 0;
-    width: 20px;
-    height: 17810px;
-}
-.bordures_3 {
-    background-color: rgb(130, 24, 24);
-    position: absolute;
-    z-index: 1;
-    top: 0;
-    width: 100%;
-    height: 20px;
 }
 img {
     object-fit: cover;
@@ -50,7 +27,7 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 50px;
+    margin-top: -100px;
     width: 80%;
     height: 100%;
     background: white;
@@ -164,8 +141,4 @@ li {
     margin: 0;
     text-align: center;
 }
-footer{
-    height: 20px;
-    width: 100%;
-    background-color: rgb(130, 24, 24)
-}
+
