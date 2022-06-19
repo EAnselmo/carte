@@ -32,8 +32,8 @@ header {
     background: white;
 }
 .btn{
-    height: 100px;
-    width: 100px;
+    height: 75px;
+    width: 75px;
     display: flex;
     justify-content: center;
     align-items: center;
