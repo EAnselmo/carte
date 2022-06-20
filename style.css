@@ -31,6 +31,11 @@ header {
     height: 100%;
     background: white;
 }
+.titre{
+    color: rgb(130, 24, 24);
+    font-size: 33px;
+    font-family: fantasy;
+}
 .btn{
     height: 75px;
     width: 75px;
